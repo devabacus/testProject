@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "tsc: build - tsconfig.json",
+        "type": "shell",
+        "command": "npx",
+        "args": ["tsc", "--build", "tsconfig.json"],
+        "problemMatcher": ["$tsc"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "silent"
+        }
+      }
+    ]
+  }
